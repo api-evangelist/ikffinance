@@ -1,8 +1,27 @@
 aid: ikffinance
-name: Ikffinance
-description: 'Ikffinance is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ikffinance.png
+name: IKF Finance
+description: 'IKF Finance Limited is an India-based non-banking financial company (NBFC)
+  that has provided asset financing for more than 35 years through a network of 300+
+  branches pan-India, serving over one lakh customers. Its lending products include
+  commercial vehicle loans, construction equipment loans, tractor loans, car and MUV
+  loans, and MSME and business loans, with home loans offered through the affiliated
+  IKF Home Finance entity. Operating under the tagline "Powering Progress with Prompt
+  Financing," the company focuses on prompt, accessible credit for transport operators,
+  small businesses, and individuals across India. This profile was surfaced as a portfolio
+  lead and enriched with public identity, legal, and domain-security signals; IKF
+  Finance publishes no public developer/API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/ikffinance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Financial Services
+- NBFC
+- Lending
+- Asset Finance
+- Vehicle Finance
+- MSME
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ikffinance-domain-security.yml
 - type: Website
-  url: https://ikffinance.com
+  url: https://www.ikffinance.com
+- type: Support
+  url: https://www.ikffinance.com/contact-us
+- type: Blog
+  url: https://www.ikffinance.com/news-and-announcements
+- type: TermsOfService
+  url: https://www.ikffinance.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.ikffinance.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
