@@ -45,7 +45,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - NBFC
 - Lending
 - Asset Finance
@@ -61,6 +61,7 @@ tags_raw:
 - Vehicle Finance
 - MSME
 - India
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
